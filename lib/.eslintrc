@@ -1,0 +1,85 @@
+{
+  "ecmaFeatures": {
+    // enable arrow functions
+    "arrowFunctions": true,
+
+    // enable binary literals
+    "binaryLiterals": true,
+
+    // enable let and const (aka block bindings)
+    "blockBindings": true,
+
+    // enable classes
+    "classes": true,
+
+    // enable default function parameters
+    "defaultParams": true,
+
+    // enable destructuring
+    "destructuring": true,
+
+    // enable for-of loops
+    "forOf": true,
+
+    // enable generators
+    "generators": true,
+
+    // enable modules and global strict mode
+    "modules": true,
+
+    // enable computed object literal property names
+    "objectLiteralComputedProperties": true,
+
+    // enable duplicate object literal properties in strict mode
+    "objectLiteralDuplicateProperties": true,
+
+    // enable object literal shorthand methods
+    "objectLiteralShorthandMethods": true,
+
+    // enable object literal shorthand properties
+    "objectLiteralShorthandProperties": true,
+
+    // enable octal literals
+    "octalLiterals": true,
+
+    // enable the regular expression u flag
+    "regexUFlag": true,
+
+    // enable the regular expression y flag
+    "regexYFlag": true,
+
+    // enable the rest parameters
+    "restParams": true,
+
+    // enable the spread operator
+    "spread": true,
+
+    // enable super references inside of functions
+    "superInFunctions": true,
+
+    // enable template strings
+    "templateStrings": true,
+
+    // enable code point escapes
+    "unicodeCodePointEscapes": true,
+
+    // allow return statements in the global scope
+    "globalReturn": true
+  },
+  "rules": {
+    // enforce the spacing around the * in generator functions (off by default)
+    "generator-star-spacing": [2, "both"],
+
+    // disallow use of console (off by default in the node environment)
+    "no-console": 2,
+
+    // require let or const instead of var (off by default)
+    "no-var": 2,
+
+    // require method and property shorthand syntax for object literals (off by default)
+    "object-shorthand": [2, "never"],
+
+    // controls location of Use Strict Directives
+    "strict": [2, "global"]
+  }
+}

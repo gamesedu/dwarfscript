@@ -1,0 +1,26 @@
+{
+  "name": "es6boilerplate",
+  "version": "0.0.1",
+  "description": "A basic boilerplate for ES6 babelified apps",
+  "main": "index.js",
+  "author": "feelic",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ak-eventemitter": "0.0.5",
+    "ak-template": "0.0.3",
+    "stluafed": "^1.0.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.0",
+    "brfs": "1.x.x",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
