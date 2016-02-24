@@ -19,6 +19,9 @@ function compile () {
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./build'));
 
+  gulp.src('./index.css')
+    .pipe(gulp.dest('./build/'));
+
   return;
 }
 

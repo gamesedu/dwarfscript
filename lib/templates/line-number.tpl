@@ -1,1 +1,1 @@
-<div class="ds-editor-line-number ds-editor-line-<%- locals.number %>"><%- locals.number %></div>
+<div class="ds-editor-line-number" data-line-number="<%- locals.number %>"><%- locals.number %></div>
