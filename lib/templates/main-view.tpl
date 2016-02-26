@@ -9,6 +9,6 @@
         <textarea id="ds-editor-input"></textarea>
       </div>
     </div>
-    <a class="ds-run btn">RUN !</a>
+    <a class="ds-run btn">RUN / STOP</a>
   </div>
 </div>
