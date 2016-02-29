@@ -88,6 +88,9 @@ body {
 .ds-sprite-wall {
   background-color:#71907a;
 }
+.ds-sprite-victory {
+  background-color:#A09A77;
+}
 /*.ds-sprite-A {
   background-position: -200px 0;
 }
