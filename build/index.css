@@ -1,0 +1,191 @@
+body {
+  font-family: cursive;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#ds-map {
+  border: 1px solid #999;
+  float:left;
+  /*display:none;*/
+}
+#ds-editor {
+  height: 410px;
+  border: 1px solid #999;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#ds-editor-content {
+  width: 450px;
+  min-height: 400px;
+  display: table;
+}
+#ds-editor-line-numbers, #ds-editor-input {
+  vertical-align: top;
+  display: table-cell;
+  line-height: 1.5em;
+  font-size: 1em;
+  font-family: monospace;
+}
+#ds-editor-line-numbers {
+  min-height: 400px;
+  padding: 5px;
+  width: 24px;
+  border-right: 1px solid #999;
+  background-color: #ddd;
+  color:#666;
+  text-align: right;
+}
+.ds-editor-line-number.ds-parsing-error {
+  color: #A00;
+  font-weight: bold;
+  cursor: pointer;
+}
+#ds-editor-input {
+  min-height: 400px;
+  padding: 5px;
+  width: calc(100% - 10px);
+  resize: none;
+  border: 0;
+  background-color: #eee;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  border: 2px solid #89c;
+  background-color: #bcf;
+  cursor: pointer;
+  text-align: center;
+  min-width: 120px;
+  border-radius: 3px;
+}
+.btn:hover {
+  background-color: #B7C8FA;
+}
+.btn.ds-execution-stop {
+  background: #fbb;
+  border: 2px solid #c88;
+}
+.btn.ds-execution-stop:hover {
+  background-color: #FAB7B7;
+}
+.ds-map-tile {
+  margin: 0;
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  display: block;
+  float: left;
+  background-color: #91b09a;
+  /*background-image: url('../resources/map_sprite2.png');
+  background-position: -240px -80px;*/
+}
+.ds-sprite-wall {
+  background-color:#71907a;
+}
+.ds-sprite-victory {
+  background-color:#A09A77;
+}
+/*.ds-sprite-A {
+  background-position: -200px 0;
+}
+.ds-sprite-B {
+  background-position: -240px 0;
+}
+.ds-sprite-C {
+  background-position: -280px 0;
+}
+.ds-sprite-D {
+  background-position: -200px -40px;
+}
+.ds-sprite-E {
+  background-position: -240px -40px;
+}
+.ds-sprite-F {
+  background-position: -280px -40px;
+}
+.ds-sprite-G {
+  background-position: -200px -80px;
+}
+.ds-sprite-H {
+  background-position: -240px -80px;
+}
+.ds-sprite-I {
+  background-position: -280px -80px;
+}
+.ds-sprite-J {
+  background-position: -200px -120px;
+}
+.ds-sprite-K {
+  background-position: -240px -120px;
+}
+.ds-sprite-L {
+  background-position: -280px -120px;
+}
+
+.ds-sprite-M {
+  background-position: -320px 0;
+}
+.ds-sprite-N {
+  background-position: -360px 0;
+}
+.ds-sprite-O {
+  background-position: -320px -40px;
+}
+.ds-sprite-P {
+  background-position: -360px -40px;
+}
+.ds-sprite-Q {
+  background-position: -320px -80px;
+}
+.ds-sprite-R {
+  background-position: -360px -80px;
+}
+.ds-sprite-S {
+  background-position: -320px -120px;
+}
+.ds-sprite-T {
+  background-position: -360px -120px;
+}
+
+.ds-sprite-U {
+  background-position: -120px 0;
+}
+.ds-sprite-V {
+  background-position: -160px 0;
+}*/
+.clear {
+  clear: both;
+}
+
+#ds-eng-panel {
+  float: left;
+}
+
+.ds-unit {
+  width:32px;
+  height:32px;
+  border-radius: 5px;
+  margin:2px auto;
+  color: #eee;
+}
+.ds-unit.ds-unit-dwarf {
+  background-image: url('../resources/DwarfSprites.png');
+}
+.ds-unit.ds-unit-dwarf.ds-direction-north {
+  background-position: 0 32px;
+}
+.ds-unit.ds-unit-dwarf.ds-direction-west {
+  background-position: 0 64px;
+}
+.ds-unit.ds-unit-dwarf.ds-direction-south {
+  background-position: 0 128px;
+}
+.ds-unit.ds-unit-dwarf.ds-direction-east {
+  background-position: 0 96px;
+}
